@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad 3 - Callback</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/shared/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="../crud/index.html">CRUD</a>
+        <a href="indexcallback.html">CALLBACK</a>
+        <a href="../promise/promise.html">PROMISE</a>
+        <a href="../async/indexasync.html">ASYNC/AWAIT</a>
+        <a href="../destructuring/indexdestructuring.html">DESTRUCTURING</a>
+    </nav>
+
+    <!-- Contenedor principal -->
+    <div class="contenedor">
+
+        <h1>Actividad 3: Callback</h1>
+
+        <h2>¿Qué es un Callback? <br><br>
+            "¡Te llamaré más tarde!"
+        </h2>
+        <p>
+            Una devolución de llamada de JavaScript es una función
+            que se pasa como argumento a otra función, que luego se ejecuta
+            (o se "devuelve la llamada") en un momento posterior para completar
+            una tarea o rutina específica.
+        </p>
+
+        <!-- SECCIÓN DE BÚSQUEDA -->
+
+        <h2>Búsqueda de País</h2>
+
+        <input type="text" id="pais" placeholder="Ingrese un país">
+
+        <button onclick="buscarPais()">Buscar</button>
+
+        <h3>Resultado:</h3>
+
+        <!-- SOLO UN RESULTADO -->
+        <p id="resultado"></p>
+
+    </div> <!-- Cierre correcto del contenedor -->
+
+    <!-- JavaScript -->
+    <script src="/src/features/callback/maincallback.js"></script>
+
+</body>
+
+</html>

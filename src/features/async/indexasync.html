@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad 5 - Async/Await</title>
+
+    <!-- Conectamos el CSS -->
+    <link rel="stylesheet" href="/src/shared/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Menú lateral -->
+    <nav>
+        <a href="/src/features/crud/index.html">CRUD</a>
+        <a href="/src/features/callback/indexcallback.html">Callback</a>
+        <a href="/src/features/promise/promise.html">Promise</a>
+        <a href="/src/features/async/indexasync.html">Async/Await</a>
+        <a href="/src/features/destructuring/indexdestructuring.html">Destructuring</a>
+    </nav>
+
+    <div class="contenedor">
+        <h1>Actividad 5: Async/Await</h1>
+
+        <h2>¿Qué es Async/Await?</h2>
+        <p>
+            Las cadenas de promesas pueden llegar a ser largas.
+            async y await se crearon para reducir la anidación y mejorar la legibilidad. <br>
+            async hace que una función devuelva una Promesa
+            await hace que una función espere una Promesa </p>
+
+        <h2>Ejemplo</h2>
+
+        <input type="number" id="numero" placeholder="Ingrese un número">
+        <button onclick="calcularDoble()">Calcular Doble</button>
+
+        <h3>Resultado:</h3>
+        <p id="resultado"></p>
+    </div>
+
+    <!-- Conectamos el JS -->
+    <script src="/src/features/async/mainasync.js"></script>
+</body>
+
+</html>

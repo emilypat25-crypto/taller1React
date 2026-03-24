@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad 4 - Promises</title>
+
+    <!-- Conectamos el CSS -->
+    <link rel="stylesheet" href="/src/shared/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="/src/features/crud/index.html">CRUD</a>
+        <a href="/src/features/callback/indexcallback.html">CALLBACK</a>
+        <a href="/src/features/promise/promise.html">PROMISE</a>
+        <a href="/src/features/async/indexasync.html">ASYNC/AWAIT</a>
+        <a href="/src/features/destructuring/indexdestructuring.html">DESTRUCTURING</a>
+    </nav>
+
+    <div class="contenedor">
+
+        <h1>Actividad 4: Promises</h1>
+
+        <h2>¿Qué es una Promise? <br> <br>
+            "¡Prometo un resultado!"
+        </h2>
+
+        <p>
+            Las promesas de JavaScript se crearon para que el uso de JavaScript asincrónico sea más fácil.
+            Un objeto Promise representa la finalización o el fracaso de una operación asincrónica.
+            Una Promesa puede estar en uno de tres estados exclusivos: <br>
+            PENDIENTE, RECHAZADO, CUMPLIDO.
+        </p>
+
+        <h2>Verificar última letra</h2>
+
+        <!-- Input donde el usuario escribe la palabra -->
+        <input type="text" id="texto" placeholder="Ingrese una palabra">
+
+        <!-- Botón que ejecuta la función -->
+        <button onclick="verificarCadena()">Verificar</button>
+
+        <h3>Resultado:</h3>
+        <p id="resultado"></p>
+
+    </div>
+
+    <!-- Conectamos el JS -->
+    <script src="../promise/mainpromise.js"></script>
+
+</body>
+
+</html>
